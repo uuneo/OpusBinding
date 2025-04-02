@@ -40,7 +40,7 @@
 #endif
 
 #include <stdio.h>
-#include <libopus/opus.h>
+#include <opus/opus.h>
 #include "diag_range.h"
 
 /*This is some non-exported code copied wholesale from libopus.

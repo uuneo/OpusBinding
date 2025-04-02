@@ -15,7 +15,7 @@ let package = Package(
             targets: ["OpusBinding"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SerhiiShovkoplias/libopus.git", from: "1.0.7")
+        .package(url: "https://github.com/SerhiiShovkoplias/libopus.git", from: "1.0.15")
     ],
     targets: [
         .target(
@@ -24,6 +24,7 @@ let package = Package(
             path: "Sources/OpusBinding",
             publicHeadersPath: "include",
             cSettings: [
+                .headerSearchPath("."),
                 .headerSearchPath("ogg"),
                 .headerSearchPath("opusenc"),
                 .headerSearchPath("opusfile")

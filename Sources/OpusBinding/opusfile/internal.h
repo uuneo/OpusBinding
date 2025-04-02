@@ -30,7 +30,7 @@
 
 # include <stdlib.h>
 # include "opusfile.h"
-# include <libopus/opus_multistream.h>
+# include <opus/opus_multistream.h>
 
 typedef struct OggOpusLink OggOpusLink;
 
