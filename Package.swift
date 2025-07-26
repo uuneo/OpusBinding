@@ -15,7 +15,7 @@ let package = Package(
             targets: ["OpusBinding"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SerhiiShovkoplias/libopus.git", from: "1.0.15")
+        .package(url: "https://github.com/uuneo/libopus.git", from: "1.0.15")
     ],
     targets: [
         .target(
