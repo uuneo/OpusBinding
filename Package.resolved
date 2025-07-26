@@ -3,7 +3,7 @@
     {
       "identity" : "libopus",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SerhiiShovkoplias/libopus.git",
+      "location" : "https://github.com/uuneo/libopus.git",
       "state" : {
         "revision" : "562455c4032a817894fd2dea29a8dc1076b20131",
         "version" : "1.0.15"
